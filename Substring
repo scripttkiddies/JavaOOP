@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner masukan = new Scanner(System.in);
+		
+		System.out.print("Masukan Nama lengkap : ");
+		String nama = masukan.nextLine();
+		
+		System.out.print("Berapa Panjang karakter nama tengah anda :");
+		int panjang = masukan.nextInt();
+		int searchIndex1 = nama.indexOf(" ");
+		
+		String namabelakang2 = nama.substring(searchIndex1, searchIndex1 + panjang + 1);
+		System.out.println("Nama tengah anda adalah : " + namabelakang2);
+	}
+}
