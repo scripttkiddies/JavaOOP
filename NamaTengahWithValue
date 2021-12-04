@@ -1,0 +1,10 @@
+public static void main(String args[]){
+        Scanner masukan = new Scanner(System.in);
+        
+        System.out.print("Masukan Nama Lengkap Anda : ");
+        String nama = masukan.nextLine();
+        
+        String NamaTengah = nama.substring(7,13);
+        System.out.println("Nama Tengah Anda Adalah : " + NamaTengah);
+ 
+  }
