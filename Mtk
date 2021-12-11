@@ -1,0 +1,14 @@
+public class Mtk {
+    public void penambahan(int nilai1, int nilai2){
+        System.out.println("Hasil Penambahan "+ nilai1 + " dan " + nilai2 + "Adalah " + (nilai1+nilai2));
+    }
+    public void pengurangan(int nilai1, int nilai2){
+        System.out.println("Hasil Pengurangan "+ nilai1 + " dan " + nilai2 + "Adalah " + (nilai1-nilai2));
+    }
+    public void perkalian(int nilai1, int nilai2){
+        System.out.println("Hasil Perkalian "+ nilai1 + " dan " + nilai2 + "Adalah " + (nilai1*nilai2));
+    }
+    public void pembagian(int nilai1, int nilai2){
+        System.out.println("Hasil Pembagian "+ nilai1 + " dan " + nilai2 + "Adalah " + (nilai1/nilai2));
+    }
+}
